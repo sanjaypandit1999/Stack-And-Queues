@@ -41,6 +41,10 @@ public class MyStack {
         if (head != null)
             head = head.next;
     }
+    public void peak() {
+
+        System.out.println("Top element in stack is - "  + head.data);
+    }
     public void search(int data){
         Node temp = head;
         while(temp != null){
